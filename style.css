@@ -22,13 +22,14 @@ body{
 
 p{
     margin: auto;
-    width: 348px;
+    width: 50vw;
     color: var(--main-text);
     font-family: var(--font-raleway);
-    font-size: 20px;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 2vw auto;
 }
 
 h1{
@@ -52,7 +53,7 @@ h3 {
     color: var(--title-color);
     text-align: center;
     font-family: var(--font-raleway);
-    font-size: 32px;
+    font-size: 3vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -65,9 +66,9 @@ a{
 
 [role="banner"]{
     margin: auto;
-    width: 303px;
-    height: 303px;
-    border-radius: 303px;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50vw;
     background: var(--highlight-color);
     display: flex;
     justify-content: center;
@@ -81,7 +82,7 @@ h1 {
     color: var(--title-color);
     text-align: center;
     font-family: var(--font-raleway);
-    font-size: 36px;
+    font-size: 6vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -92,11 +93,11 @@ h2 {
 }
 
 .summary p {
-    width: 387px;
+    width: 50vw;
     color: var(--main-text);
     text-align: center;
     font-family: var(--font-raleway);
-    font-size: 12px;
+    font-size: 1vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
