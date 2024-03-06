@@ -26,49 +26,38 @@ main{
 }
 
 p{
+    margin: auto;
+    width: 348px;
     color: var(--main-text);
     font-family: var(--font-inter);
-    color: #897342;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 h1{
+    margin: auto;
     color: var(--title-color);
     font-family: var(--font-averia);
-    color: #897342;
-    text-align: center;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 h2{
+    margin: auto;
     color: var(--title-color);
     font-family: var(--font-averia);
-    display: none;
 }
 
 h3{
+    margin: auto;
     color: var(--title-color);
     font-family: var(--font-averia);
 }
 
-h3 {
-    color: #897342;
-    text-align: center;
-    font-family: "Averia Serif Libre";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+body {
+    background-color: #FFF4DE;
 }
 
-[role="banner"]{
+/* SCREEN SIZE: MOBILE  */
+
+
+ [role="banner"]    {
     margin: auto;
     width: 303px;
     height: 303px;
@@ -77,10 +66,21 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    h1 {
+        color: #897342;
+    text-align: center;
+    font-family: "Averia Serif Libre";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    };
 
+    h2 {
+        display: none;
+    }
 
-.summary p {
+    .summary p {
     width: 387px;
     color: #897342;
     text-align: center;
@@ -89,31 +89,13 @@ h3 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-
+        }
+ }
+ 
  /* INSERT WAVE SVG  */
 
-/* PREAMBLE  */
-
-.preamble h3 {
-    color: #897342;
-    text-align: center;
-    font-family: "Averia Serif Libre";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.preamble p {
-    margin: auto;
-    width: 348px;
-    color: #897342;
-    text-align: center;
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
   /* main supporting */
+
+  .explanation h3 {
+    
+  }
