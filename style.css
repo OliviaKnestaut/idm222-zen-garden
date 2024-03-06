@@ -56,6 +56,7 @@ h3{
 }
 
 h3 {
+    margin-top: 3rem;
     color: #897342;
     text-align: center;
     font-family: "Averia Serif Libre";
@@ -79,7 +80,15 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    h2 {
+        display: none;
+    }
 }
+
+.banner::after {
+    background-image: url('./images/Squiggles.svg');
+    background-position: bottom;
+  }
 
 h1 {
     color: #897342;
@@ -105,10 +114,6 @@ h2 {
     font-weight: 400;
     line-height: normal;
     }
-
- /* INSERT WAVE SVG  */
-
-  /* main supporting */
 
 @media all and (min-width: 1024px){
     
