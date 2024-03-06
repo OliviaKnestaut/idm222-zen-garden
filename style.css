@@ -85,11 +85,6 @@ a{
     }
 }
 
-.banner::after {
-    background-image: url('./images/Squiggles.svg');
-    background-position: bottom;
-  }
-
 h1 {
     color: #897342;
     text-align: center;
