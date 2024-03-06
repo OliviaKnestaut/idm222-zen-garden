@@ -6,19 +6,14 @@
     --graphic-green: #2F4644;
     --graphic-purple: #3F5D5A;
 }
-@font-face {
-    font-family: "inter";
-    src: url(./fonts/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
-}
 
 @font-face {
-    font-family: "averia";
-    src: url(./fonts/AveriaSerifLibre-Regular.ttf) format("truetype");
+    font-family: "raleway";
+    src: url(./fonts/Raleway-VariableFont_wght.ttf) format("truetype");
 }
 
 :root{
-    --font-averia: "averia";
-    --font-inter: "inter";
+    --font-raleway: "raleway";
 }
 
 body{
@@ -29,9 +24,7 @@ p{
     margin: auto;
     width: 348px;
     color: var(--main-text);
-    font-family: var(--font-inter);
-    color: var(--main-text);
-    font-family: var(--font-inter);
+    font-family: var(--font-raleway);
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -40,25 +33,25 @@ p{
 
 h1{
     color: var(--title-color);
-    font-family: var(--font-averia);
+    font-family: var(--font-raleway);
 }
 
 h2{
     margin: auto;
     color: var(--title-color);
-    font-family: var(--font-averia);
+    font-family: var(--font-raleway);
 }
 
 h3{
     margin: auto;
     color: var(--title-color);
-    font-family: var(--font-averia);
+    font-family: var(--font-raleway);
 }
 
 h3 {
     color: var(--title-color);
     text-align: center;
-    font-family: "Averia Serif Libre";
+    font-family: var(--font-raleway);
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -87,7 +80,7 @@ a{
 h1 {
     color: var(--title-color);
     text-align: center;
-    font-family: "Averia Serif Libre";
+    font-family: var(--font-raleway);
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -102,7 +95,7 @@ h2 {
     width: 387px;
     color: var(--main-text);
     text-align: center;
-    font-family: Inter;
+    font-family: var(--font-raleway);
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
