@@ -30,10 +30,15 @@ p{
     width: 348px;
     color: var(--main-text);
     font-family: var(--font-inter);
+    color: #897342;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 h1{
-    margin: auto;
     color: var(--title-color);
     font-family: var(--font-averia);
 }
@@ -50,14 +55,17 @@ h3{
     font-family: var(--font-averia);
 }
 
-body {
-    background-color: #FFF4DE;
+h3 {
+    color: #897342;
+    text-align: center;
+    font-family: "Averia Serif Libre";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-/* SCREEN SIZE: MOBILE  */
-
-
- [role="banner"]    {
+[role="banner"]{
     margin: auto;
     width: 303px;
     height: 303px;
@@ -95,7 +103,3 @@ body {
  /* INSERT WAVE SVG  */
 
   /* main supporting */
-
-  .explanation h3 {
-    
-  }
