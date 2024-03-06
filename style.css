@@ -21,7 +21,7 @@
     --font-inter: "inter";
 }
 
-main{
+body{
     background-color: var(--bg-color);
 }
 
