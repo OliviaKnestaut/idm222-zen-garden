@@ -29,7 +29,9 @@ p{
     color: var(--main-text);
     font-family: var(--font-inter);
 }
-
+li{
+    color: var(--main-text);
+}
 h1{
     color: var(--title-color);
     font-family: var(--font-averia);
@@ -45,3 +47,7 @@ h3{
     font-family: var(--font-averia);
 }
 
+a{
+    text-decoration: underline;
+    color: var(--graphic-purple);
+}
