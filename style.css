@@ -28,16 +28,29 @@ main{
 p{
     color: var(--main-text);
     font-family: var(--font-inter);
+    color: #897342;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 h1{
     color: var(--title-color);
     font-family: var(--font-averia);
+    color: #897342;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 h2{
     color: var(--title-color);
     font-family: var(--font-averia);
+    display: none;
 }
 
 h3{
@@ -45,3 +58,62 @@ h3{
     font-family: var(--font-averia);
 }
 
+h3 {
+    color: #897342;
+    text-align: center;
+    font-family: "Averia Serif Libre";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+[role="banner"]{
+    margin: auto;
+    width: 303px;
+    height: 303px;
+    border-radius: 303px;
+    background: #ECDFBC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.summary p {
+    width: 387px;
+    color: #897342;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+ /* INSERT WAVE SVG  */
+
+/* PREAMBLE  */
+
+.preamble h3 {
+    color: #897342;
+    text-align: center;
+    font-family: "Averia Serif Libre";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.preamble p {
+    margin: auto;
+    width: 348px;
+    color: #897342;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+  /* main supporting */
