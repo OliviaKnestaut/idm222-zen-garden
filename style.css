@@ -6,6 +6,20 @@
     --graphic-green: #69640F;
     --graphic-purple: #A55F5F;
 }
+@font-face {
+    font-family: "inter";
+    src: url(./fonts/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "averia";
+    src: url(./fonts/AveriaSerifLibre-Regular.ttf) format("truetype");
+}
+
+:root{
+    --font-averia: "averia";
+    --font-inter: "inter";
+}
 
 main{
     background-color: var(--bg-color);
@@ -13,13 +27,21 @@ main{
 
 p{
     color: var(--main-text);
+    font-family: var(--font-inter);
 }
 
 h1{
     color: var(--title-color);
+    font-family: var(--font-averia);
 }
 
 h2{
     color: var(--title-color);
+    font-family: var(--font-averia);
+}
+
+h3{
+    color: var(--title-color);
+    font-family: var(--font-averia);
 }
 
