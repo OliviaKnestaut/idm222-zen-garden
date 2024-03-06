@@ -1,10 +1,10 @@
 :root{
-    --bg-color: #FFF4DE;
-    --highlight-color: #897342;
-    --title-color:#635331;
-    --main-text: #897342;
-    --graphic-green: #69640F;
-    --graphic-purple: #A55F5F;
+    --bg-color: #C3D0CF;
+    --highlight-color: #D3DDDC;
+    --title-color:#101717;
+    --main-text: #182322;
+    --graphic-green: #2F4644;
+    --graphic-purple: #3F5D5A;
 }
 @font-face {
     font-family: "inter";
@@ -30,7 +30,7 @@ p{
     width: 348px;
     color: var(--main-text);
     font-family: var(--font-inter);
-    color: #897342;
+    color: var(--main-text);
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
@@ -56,7 +56,7 @@ h3{
 }
 
 h3 {
-    color: #897342;
+    color: var(--title-color);
     text-align: center;
     font-family: "Averia Serif Libre";
     font-size: 32px;
@@ -75,14 +75,14 @@ a{
     width: 303px;
     height: 303px;
     border-radius: 303px;
-    background: #ECDFBC;
+    background: var(--highlight-color);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 h1 {
-    color: #897342;
+    color: var(--title-color);
     text-align: center;
     font-family: "Averia Serif Libre";
     font-size: 36px;
@@ -97,7 +97,7 @@ h2 {
 
 .summary p {
     width: 387px;
-    color: #897342;
+    color: var(--main-text);
     text-align: center;
     font-family: Inter;
     font-size: 12px;
