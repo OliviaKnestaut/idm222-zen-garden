@@ -31,7 +31,7 @@ p{
     color: var(--main-text);
     font-family: var(--font-inter);
     color: var(--main-text);
-    font-family: Inter;
+    font-family: var(--font-inter);
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -79,6 +79,9 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    h2 {
+        display: none;
+    }
 }
 
 h1 {
@@ -105,10 +108,6 @@ h2 {
     font-weight: 400;
     line-height: normal;
     }
-
- /* INSERT WAVE SVG  */
-
-  /* main supporting */
 
 @media all and (min-width: 1024px){
     
