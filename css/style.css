@@ -1,0 +1,26 @@
+:root{
+    --bg-color: #FFF4DE;
+    --highlight-color: #897342;
+    --title-color:#635331;
+    --main-text: #897342;
+    --graphic-green: #69640F;
+    --graphic-purple: #A55F5F;
+
+
+}
+
+main{
+    background-color: var(--bg-color);
+}
+
+p{
+    color: var(--main-text);
+}
+
+h1{
+    color: var(--title-color);
+}
+
+h2{
+    color: var(--title-color);
+}
