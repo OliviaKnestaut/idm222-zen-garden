@@ -65,6 +65,11 @@ h3 {
     line-height: normal;
 }
 
+a{
+    text-decoration: underline;
+    color: var(--graphic-purple);
+}
+
 [role="banner"]{
     margin: auto;
     width: 303px;
